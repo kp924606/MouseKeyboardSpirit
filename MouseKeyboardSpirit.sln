@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardSpirit", "MouseKeyboardSpirit.csproj", "{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILogger", "..\My\ILogger\ILogger.csproj", "{8A2BC080-F30F-4D5C-BEAA-65BF2FF9ADC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judgment", "..\My\Judgment\Judgment.csproj", "{1BC34223-56BC-47E1-94EB-B96391DFB97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OLogger", "..\My\OLogger\OLogger.csproj", "{51EA68CA-A280-448C-8E40-257B45634C8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2BC080-F30F-4D5C-BEAA-65BF2FF9ADC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2BC080-F30F-4D5C-BEAA-65BF2FF9ADC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2BC080-F30F-4D5C-BEAA-65BF2FF9ADC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2BC080-F30F-4D5C-BEAA-65BF2FF9ADC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC34223-56BC-47E1-94EB-B96391DFB97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC34223-56BC-47E1-94EB-B96391DFB97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC34223-56BC-47E1-94EB-B96391DFB97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC34223-56BC-47E1-94EB-B96391DFB97D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51EA68CA-A280-448C-8E40-257B45634C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51EA68CA-A280-448C-8E40-257B45634C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51EA68CA-A280-448C-8E40-257B45634C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51EA68CA-A280-448C-8E40-257B45634C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
