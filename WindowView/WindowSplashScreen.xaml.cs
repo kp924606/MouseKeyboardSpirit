@@ -128,11 +128,15 @@ namespace MouseKeyboardSpirit.WindowView
             }
             catch (ExpectedInfo ex)
             {
+                throw new ExpectedInfo($@"[{this.GetType().Name},{MethodBase.GetCurrentMethod()!.Name}]:{HolyGift.Key.ExpectedInfo}[{ex}]", ex.ReasonCode);
+
                 //BMolecule.Communication?.Invoke(new LogInfo(this.Name, this.GetType().Name, MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.ExpectedInfo, ex.ReasonCode, ILogType.Error, ex, null));
                 //BMolecule.Communication?.Invoke(new LogInfo(this.Name, this.GetType().Name, MethodBase.GetCurrentMethod()!.Name, Key.ExpectedInfo, ex.ReasonCode, ex.ILogType, ex, null));
             }
             catch (Exception ex)
             {
+                throw new ExpectedInfo($@"[{this.GetType().Name},{MethodBase.GetCurrentMethod()!.Name}]:{HolyGift.Key.Catch}[{ex}]", Code.FCT_002);
+
                 //BMolecule.Communication?.Invoke(new LogInfo(this.Name, this.GetType().Name, MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.Catch, Code.FCT_002, ILogType.Catch, ex, null));
             }
             finally
@@ -153,7 +157,7 @@ namespace MouseKeyboardSpirit.WindowView
                 //設定檢查條件，使用 DispatcherTimer 每隔一段時間檢查
                 this.timer = new DispatcherTimer
                 {
-                    Interval = TimeSpan.FromMilliseconds(200) // 每 100 毫秒檢查一次
+                    Interval = TimeSpan.FromMilliseconds(200) // 每 200 毫秒檢查一次
                 };
                 this.timer.Tick += (sender, e) => CheckAndStopAnimation();
                 this.timer.Start();
@@ -176,32 +180,46 @@ namespace MouseKeyboardSpirit.WindowView
         /// </summary>
         private void CheckAndStopAnimation()
         {
-            if (this._isMainWindowInitFinish && this.mainWindow != null)
+            try
             {
-                // 停止檢查
-                this.timer!.Stop();
-                
-                this.mainWindow!.Show();
-                // 創建動畫
-                DoubleAnimation fadeInAnimation = new DoubleAnimation
+                if (this._isMainWindowInitFinish && this.mainWindow != null)
                 {
-                    From = 0.6,    // 起始透明度
-                    To = 1.0,      // 目標透明度
-                    Duration = new Duration(TimeSpan.FromSeconds(0.5)), // 動畫時間
-                    EasingFunction = new QuadraticEase() { EasingMode = EasingMode.EaseOut } // 動畫效果
-                };
-                this.mainWindow!.BeginAnimation(Window.OpacityProperty, fadeInAnimation);
+                    // 停止檢查
+                    this.timer!.Stop();
 
-                DoubleAnimation closeAnimation = new DoubleAnimation
-                {
-                    From = 1.0,    // 起始透明度
-                    To = 0.0,      // 目標透明度
-                    Duration = new Duration(TimeSpan.FromSeconds(0.5)), // 動畫時間
-                    EasingFunction = new QuadraticEase() { EasingMode = EasingMode.EaseIn } // 動畫效果
-                };
-                this.BeginAnimation(Window.OpacityProperty, closeAnimation);
-                this.Hide();
-                closeAnimation.Completed += (s, _) => this.Close(); // 關閉目前視窗
+                    this.mainWindow!.Show();
+                    // 創建動畫
+                    DoubleAnimation fadeInAnimation = new DoubleAnimation
+                    {
+                        From = 0.6,    // 起始透明度
+                        To = 1.0,      // 目標透明度
+                        Duration = new Duration(TimeSpan.FromSeconds(0.5)), // 動畫時間
+                        EasingFunction = new QuadraticEase() { EasingMode = EasingMode.EaseOut } // 動畫效果
+                    };
+                    this.mainWindow!.BeginAnimation(Window.OpacityProperty, fadeInAnimation);
+
+                    DoubleAnimation closeAnimation = new DoubleAnimation
+                    {
+                        From = 1.0,    // 起始透明度
+                        To = 0.0,      // 目標透明度
+                        Duration = new Duration(TimeSpan.FromSeconds(0.5)), // 動畫時間
+                        EasingFunction = new QuadraticEase() { EasingMode = EasingMode.EaseIn } // 動畫效果
+                    };
+                    this.BeginAnimation(Window.OpacityProperty, closeAnimation);
+                    this.Hide();
+                    closeAnimation.Completed += (s, _) => this.Close(); // 關閉目前視窗
+                }
+            }
+            catch (ExpectedInfo ex)
+            {
+                throw new ExpectedInfo($@"[{this.GetType().Name},{MethodBase.GetCurrentMethod()!.Name}]:{HolyGift.Key.ExpectedInfo}[{ex}]", ex.ReasonCode);
+            }
+            catch (Exception ex)
+            {
+                throw new ExpectedInfo($@"[{this.GetType().Name},{MethodBase.GetCurrentMethod()!.Name}]:{HolyGift.Key.Catch}[{ex}]", Code.FCT_002);
+            }
+            finally
+            {
             }
         }
 

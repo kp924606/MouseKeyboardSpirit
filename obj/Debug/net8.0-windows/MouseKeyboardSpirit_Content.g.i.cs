@@ -9,6 +9,5 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/tct_icon-1.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/tct_icon-1.psd")]
 
 

@@ -69,7 +69,7 @@ namespace MouseKeyboardSpirit.WindowView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MouseKeyboardSpirit;component/windowview/windowsplashscreen.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MouseKeyboardSpirit;V1.0.0.0;component/windowview/windowsplashscreen.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\WindowView\WindowSplashScreen.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

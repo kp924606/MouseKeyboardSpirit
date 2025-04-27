@@ -1,5 +1,4 @@
 D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Release\net8.0-windows\image\TCT_Icon-1.png
-D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Release\net8.0-windows\image\TCT_Icon-1.psd
 D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Release\net8.0-windows\MouseKeyboardSpirit.exe
 D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Release\net8.0-windows\MouseKeyboardSpirit.deps.json
 D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Release\net8.0-windows\MouseKeyboardSpirit.runtimeconfig.json
@@ -34,3 +33,4 @@ D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\refint\M
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\MouseKeyboardSpirit.pdb
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\MouseKeyboardSpirit.genruntimeconfig.cache
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\ref\MouseKeyboardSpirit.dll
+D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\MouseKeyboardSpirit.sourcelink.json

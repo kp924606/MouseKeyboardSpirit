@@ -5,7 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MouseKeyboardSpirit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        WindowStartupLocation="CenterScreen"        
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        Height="{Binding WindowHeight, Mode=TwoWay}"
+        Width="{Binding WindowWidth, Mode=TwoWay}"
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        AllowsTransparency="True"
+        Background="#f9e6c8"
+        Loaded="PageOnLoad"
+        BorderBrush="#FFAA00"
+        BorderThickness="1"        
+        >
     <Grid>
 
     </Grid>
