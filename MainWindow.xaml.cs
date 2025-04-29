@@ -3,6 +3,7 @@ using ILogger.Enum;
 using ILogger.Interface;
 using Judgment;
 using MouseKeyboardSpirit.GeneralSettings;
+using MouseKeyboardSpirit.WindowView;
 using OLogger.AP;
 using System.ComponentModel;
 using System.Reflection;
@@ -199,6 +200,60 @@ namespace MouseKeyboardSpirit
         }
 
         /// <summary>
+        /// 開始結束按鈕圖片
+        /// </summary>
+        private string? _buttonStartStopImageSourcePath = GeneralString.StartImageSourcePath;
+
+        public string ButtonStartStopImageSourcePath
+        {
+            get
+            {
+                return this._buttonStartStopImageSourcePath!;
+            }
+            set
+            {
+                this.ButtonStartStopImageSourcePath = value;
+                OnPropertyChanged(nameof(this.ButtonStartStopImageSourcePath));
+            }
+        }
+
+        /// <summary>
+        /// 隱藏按鈕圖片
+        /// </summary>
+        private string? _buttonHideImageSourcePath = GeneralString.HideImageSourcePath;
+
+        public string ButtonHideImageSourcePath
+        {
+            get
+            {
+                return this._buttonHideImageSourcePath!;
+            }
+            set
+            {
+                this.ButtonHideImageSourcePath = value;
+                OnPropertyChanged(nameof(this.ButtonHideImageSourcePath));
+            }
+        }
+
+        /// <summary>
+        /// 關閉按鈕圖片
+        /// </summary>
+        private string? _buttonCloseImageSourcePath = GeneralString.CloseImageSourcePath;
+
+        public string ButtonCloseImageSourcePath
+        {
+            get
+            {
+                return this._buttonCloseImageSourcePath!;
+            }
+            set
+            {
+                this.ButtonCloseImageSourcePath = value;
+                OnPropertyChanged(nameof(this.ButtonCloseImageSourcePath));
+            }
+        }
+
+        /// <summary>
         /// 按下 PullPush 按鈕展現或收縮
         /// </summary>
         private bool _isPullPushVisible;
@@ -380,14 +435,20 @@ namespace MouseKeyboardSpirit
             }
         }
 
+        /// <summary>
+        /// 畫面展開或收縮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void DoExpandedPanel(object sender, RoutedEventArgs e)
         {
             try
             {
-                //123
-                //this.WindowHeight
-                this.IsPullPushVisible = !this.IsPullPushVisible;
-                
+                this.Button_PullPush.IsEnabled = false;
+
+
+                this.IsPullPushVisible = !this.IsPullPushVisible;              
+
                 double targetHeight = this.IsPullPushVisible ? GeneralSize.WindowExpandHeight : GeneralSize.WindowDefaultHeight;
 
                 // 創建動畫
@@ -398,10 +459,159 @@ namespace MouseKeyboardSpirit
                     EasingFunction = new QuadraticEase() { EasingMode = EasingMode.EaseInOut } // 絲滑動畫
                 };
 
+                // 加入動畫完成事件
+                heightAnimation.Completed += (s, args) =>
+                {
+                    if (this.IsPullPushVisible)
+                    {
+                        this.ButtonPullPushImageSourcePath = GeneralString.PushImageSourcePath;
+                    }
+                    else
+                    {
+                        this.ButtonPullPushImageSourcePath = GeneralString.PullImageSourcePath;
+                    }
+                };
+
                 // 執行動畫
                 this.BeginAnimation(Window.HeightProperty, heightAnimation);
 
-                //this.PullButtonImageSourcePath = BaseScreenshot.PushImageSourcePath;
+                this.Button_PullPush.IsEnabled = true;
+
+            }
+            catch (ExpectedInfo ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.ExpectedInfo, ex.ReasonCode, ILogType.Error, ex, null));
+            }
+            catch (Exception ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.Catch, Code.FCT_002, ILogType.Catch, ex, null));
+            }
+            finally
+            {
+            }
+        }
+
+        /// <summary>
+        /// 畫面展開或收縮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DoStartStop(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                this.Button_StartStop.IsEnabled = false;
+
+                ////777
+                //if (true)
+                //{
+                //    this.ButtonStartStopImageSourcePath = GeneralString.StartImageSourcePath;
+                //}
+                //else
+                //{
+                //    this.ButtonStartStopImageSourcePath = GeneralString.StopImageSourcePath;
+                //}
+
+                this.Button_StartStop.IsEnabled = true;
+
+            }
+            catch (ExpectedInfo ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.ExpectedInfo, ex.ReasonCode, ILogType.Error, ex, null));
+            }
+            catch (Exception ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.Catch, Code.FCT_002, ILogType.Catch, ex, null));
+            }
+            finally
+            {
+            }
+        }
+
+        /// <summary>
+        /// 畫面隱藏
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DoHide(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                this.Button_Hide.IsEnabled = false;
+
+                // 隱藏窗口並顯示在托盤
+                this.Hide();
+                MyNotifyIcon.Visibility = Visibility.Visible;
+                this.Button_Hide.IsEnabled = true;
+            }
+            catch (ExpectedInfo ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.ExpectedInfo, ex.ReasonCode, ILogType.Error, ex, null));
+            }
+            catch (Exception ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.Catch, Code.FCT_002, ILogType.Catch, ex, null));
+            }
+            finally
+            {
+            }
+        }
+
+        /// <summary>
+        /// 關閉畫面
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void DoClose(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                this.Button_Close.IsEnabled = false;
+
+                var windowBW = new WindowMessageBox("確認關閉", "確定要關閉程式嗎?", MessageBoxWindowShowType.Info, MessageBoxWindowButtonType.YesNo);
+
+                bool? result = windowBW.ShowDialog();
+
+                if (result == true && windowBW.Result == MessageBoxWindowResult.Yes)
+                {
+                    WindowGoodbye goodbye = new WindowGoodbye();
+                    this.Close();
+                    goodbye.Show();
+                }
+                else
+                {
+
+                }
+
+                this.Button_Close.IsEnabled = true;
+            }
+            catch (ExpectedInfo ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.ExpectedInfo, ex.ReasonCode, ILogType.Error, ex, null));
+            }
+            catch (Exception ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.Catch, Code.FCT_002, ILogType.Catch, ex, null));
+            }
+            finally
+            {
+            }
+        }
+
+        /// <summary>
+        /// 通知圖示, 點兩下
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void NotifyIcon_DoubleClick(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // 雙擊托盤圖示顯示窗口
+                this.Show();
+                this.WindowState = WindowState.Normal;
+                // 確保視窗在最前面
+                this.Activate();
             }
             catch (ExpectedInfo ex)
             {

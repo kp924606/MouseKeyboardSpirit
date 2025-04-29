@@ -7,12 +7,24 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="WindowView\WindowGoodbye.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowView\WindowMessageBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="WindowView\WindowSplashScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowView\WindowGoodbye.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowView\WindowMessageBox.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="WindowView\WindowSplashScreen.xaml">

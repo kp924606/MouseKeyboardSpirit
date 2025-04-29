@@ -15,10 +15,12 @@ namespace MouseKeyboardSpirit.GeneralSettings
         public const string CloseImageSourcePath = "image/Close-1.png";
         public const string FolderSelectImageSourcePath = "image/Folder1.png";
         public const string FolderOpenImageSourcePath = "image/Folder2.png";
+        public const string StartImageSourcePath = "image/Start.png";
+        public const string StopImageSourcePath = "image/Stop.png";
 
         /// <summary>
         /// 轉場動畫時間
         /// </summary>
-        public const double AnimationDuration = 0.25;
+        public const double AnimationDuration = 0.20;
     }
 }
