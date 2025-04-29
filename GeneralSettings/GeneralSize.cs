@@ -11,6 +11,29 @@ namespace MouseKeyboardSpirit.GeneralSettings
     /// </summary>
     public static class GeneralSize
     {
-        public const double WindowHeight = 80;
+        /// <summary>
+        /// 畫面預設高度
+        /// </summary>
+        public const double WindowDefaultHeight = WindowControlRowHeight + WindowMessageRowHeight + 30;
+        //public const double WindowDefaultHeight = 100;
+
+        /// <summary>
+        /// 畫面展開高度
+        /// </summary>
+        public const double WindowExpandHeight = WindowControlRowHeight + WindowMessageRowHeight + WindowTabViewRowHeight + WindowSelfRowHeight + 50;
+        //public const double WindowExpandHeight = 450;
+
+        /// <summary>
+        /// 畫面寬度
+        /// </summary>
+        public const double WindowWidth = 400;
+
+        public const double WindowControlRowHeight = 50;
+        public const double WindowMessageRowHeight = 20;
+        public const double WindowTabViewRowHeight = 270;
+        public const double WindowSelfRowHeight = 50;
+
+        public const double ButtonPullPushSize = 40;
+
     }
 }

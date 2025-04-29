@@ -13,6 +13,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -31,8 +32,12 @@ namespace MouseKeyboardSpirit
         /// </summary>
         private OLogInfo? _ologinfo { set; get; }
 
-        private double _windowHeight = GeneralSize.WindowHeight; 
-        
+        /// <summary>
+        /// 預設視窗高度
+        /// </summary>
+        private double _windowHeight = GeneralSize.WindowDefaultHeight;
+        //private double _windowHeight = GeneralSize.WindowExpandHeight;
+
         /// <summary>
         /// 預設視窗高度
         /// </summary>
@@ -44,14 +49,172 @@ namespace MouseKeyboardSpirit
             }
             set
             {
-                if (this._windowHeight != value)
-                {
-                    this._windowHeight = value;
-                    OnPropertyChanged(nameof(this.WindowHeight));
-                }
+                this._windowHeight = value;
+                OnPropertyChanged(nameof(this.WindowHeight));
             }
         }
 
+        /// <summary>
+        /// 預設視窗寬度
+        /// </summary>
+        private double _windowWidth = GeneralSize.WindowWidth;
+
+        /// <summary>
+        /// 預設視窗寬度
+        /// </summary>
+        public double WindowWidth
+        {
+            get
+            {
+                return this._windowWidth;
+            }
+            set
+            {
+                this._windowWidth = value;
+                OnPropertyChanged(nameof(this.WindowWidth));
+            }
+        }
+
+        /// <summary>
+        /// 預設 ControlRow 高度
+        /// </summary>
+        private double _windowControlRowHeight { set; get; }
+
+        /// <summary>
+        /// 預設 ControlRow 高度
+        /// </summary>
+        public double WindowControlRowHeight
+        {
+            get
+            {
+                return this._windowControlRowHeight;
+            }
+            set
+            {
+                this._windowControlRowHeight = value;
+                OnPropertyChanged(nameof(this.WindowControlRowHeight));
+            }
+        }
+
+        /// <summary>
+        /// 預設 MessageRow 高度
+        /// </summary>
+        private double _windowMessageRowHeight { set; get; }
+
+        /// <summary>
+        /// 預設 MessageRow 高度
+        /// </summary>
+        public double WindowMessageRowHeight
+        {
+            get
+            {
+                return this._windowMessageRowHeight;
+            }
+            set
+            {
+                this._windowMessageRowHeight = value;
+                OnPropertyChanged(nameof(this.WindowMessageRowHeight));
+            }
+        }
+
+        /// <summary>
+        /// 預設 TabViewRow 高度
+        /// </summary>
+        private double _windowTabViewRowHeight { set; get; }
+
+        /// <summary>
+        /// 預設 TabViewRow 高度
+        /// </summary>
+        public double WindowTabViewRowHeight
+        {
+            get
+            {
+                return this._windowTabViewRowHeight;
+            }
+            set
+            {
+                this._windowTabViewRowHeight = value;
+                OnPropertyChanged(nameof(this.WindowTabViewRowHeight));
+            }
+        }
+
+        /// <summary>
+        /// 預設 SelfRow 高度
+        /// </summary>
+        private double _windowSelfRowHeight = GeneralSize.WindowSelfRowHeight;
+
+        /// <summary>
+        /// 預設 SelfRow 高度
+        /// </summary>
+        public double WindowSelfRowHeight
+        {
+            get
+            {
+                return this._windowSelfRowHeight;
+            }
+            set
+            {
+                this._windowSelfRowHeight = value;
+                OnPropertyChanged(nameof(this.WindowSelfRowHeight));
+            }
+        }
+
+        /// <summary>
+        /// 按鈕 PullPush 的尺寸
+        /// </summary>
+        private double _buttonPullPushSize = GeneralSize.ButtonPullPushSize;
+
+        /// <summary>
+        /// 按鈕PullPush的尺寸
+        /// </summary>
+        public double ButtonPullPushSize
+        {
+            get
+            {
+                return this._buttonPullPushSize;
+            }
+            set
+            {
+                this._buttonPullPushSize = value;
+                OnPropertyChanged(nameof(this.ButtonPullPushSize));
+            }
+        }
+
+        /// <summary>
+        /// 下拉按鈕圖片
+        /// </summary>
+        private string? _buttonPullPushImageSourcePath = GeneralString.PullImageSourcePath;
+
+        public string ButtonPullPushImageSourcePath
+        {
+            get
+            {
+                return this._buttonPullPushImageSourcePath!;
+            }
+            set
+            {
+                this._buttonPullPushImageSourcePath = value;
+                OnPropertyChanged(nameof(this.ButtonPullPushImageSourcePath));
+            }
+        }
+
+        /// <summary>
+        /// 按下 PullPush 按鈕展現或收縮
+        /// </summary>
+        private bool _isPullPushVisible;
+
+        /// <summary>
+        /// 按下 PullPush 按鈕展現或收縮
+        /// </summary>
+        public bool IsPullPushVisible
+        {
+            get => this._isPullPushVisible;
+            set
+            {
+                this._isPullPushVisible = value;
+                OnPropertyChanged(nameof(this.IsPullPushVisible));
+            }
+        }
 
         #endregion
 
@@ -74,6 +237,8 @@ namespace MouseKeyboardSpirit
             try
             {
                 InitializeComponent();
+                // 設定 DataContext，讓 XAML 可以綁定變數
+                this.DataContext = this;
 
                 // 產出 Log 物件
                 this._ologinfo = new OLogInfo(Assembly.GetExecutingAssembly().GetName().Name, 30, 3, 777);
@@ -143,8 +308,7 @@ namespace MouseKeyboardSpirit
                 Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, $@"Start...", Code.IFO_000));
 
 
-                // 設定 DataContext，讓 XAML 可以綁定變數
-                this.DataContext = this;
+                
             }
             catch (ExpectedInfo ex)
             {
@@ -164,12 +328,19 @@ namespace MouseKeyboardSpirit
 
         #region Method
 
-
-        public void PageOnLoad(object sender, RoutedEventArgs e)
+        /// <summary>
+        /// 載入
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void WindowOnLoad(object sender, RoutedEventArgs e)
         {
             try
             {
-                
+                this.WindowControlRowHeight = GeneralSize.WindowControlRowHeight;
+                this.WindowMessageRowHeight = GeneralSize.WindowMessageRowHeight;
+                this.WindowTabViewRowHeight = GeneralSize.WindowTabViewRowHeight;
+                this.WindowSelfRowHeight = GeneralSize.WindowSelfRowHeight;
             }
             catch (ExpectedInfo ex)
             {
@@ -195,6 +366,42 @@ namespace MouseKeyboardSpirit
             {
                 // 這行會讓視窗跟隨滑鼠移動
                 this.DragMove();
+            }
+            catch (ExpectedInfo ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.ExpectedInfo, ex.ReasonCode, ILogType.Error, ex, null));
+            }
+            catch (Exception ex)
+            {
+                Communication(new LogInfo(HolyGift.Key.System, MethodBase.GetCurrentMethod()!.DeclaringType!.ToString(), MethodBase.GetCurrentMethod()!.Name, HolyGift.Key.Catch, Code.FCT_002, ILogType.Catch, ex, null));
+            }
+            finally
+            {
+            }
+        }
+
+        private void DoExpandedPanel(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                //123
+                //this.WindowHeight
+                this.IsPullPushVisible = !this.IsPullPushVisible;
+                
+                double targetHeight = this.IsPullPushVisible ? GeneralSize.WindowExpandHeight : GeneralSize.WindowDefaultHeight;
+
+                // 創建動畫
+                DoubleAnimation heightAnimation = new DoubleAnimation
+                {
+                    To = targetHeight,
+                    Duration = TimeSpan.FromSeconds(GeneralString.AnimationDuration),
+                    EasingFunction = new QuadraticEase() { EasingMode = EasingMode.EaseInOut } // 絲滑動畫
+                };
+
+                // 執行動畫
+                this.BeginAnimation(Window.HeightProperty, heightAnimation);
+
+                //this.PullButtonImageSourcePath = BaseScreenshot.PushImageSourcePath;
             }
             catch (ExpectedInfo ex)
             {

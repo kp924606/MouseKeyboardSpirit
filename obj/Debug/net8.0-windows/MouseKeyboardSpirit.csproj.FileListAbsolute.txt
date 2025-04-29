@@ -34,3 +34,11 @@ D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Debug\net8.0-windows\MouseKeybo
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Debug\net8.0-windows\MouseKeyboardSpirit.genruntimeconfig.cache
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Debug\net8.0-windows\ref\MouseKeyboardSpirit.dll
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Debug\net8.0-windows\MouseKeyboardSpirit.sourcelink.json
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Debug\net8.0-windows\image\Close-1.png
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Debug\net8.0-windows\image\Folder1.png
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Debug\net8.0-windows\image\Folder2.png
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Debug\net8.0-windows\image\Hide1.png
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Debug\net8.0-windows\image\Pull.png
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Debug\net8.0-windows\image\Push.png
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Debug\net8.0-windows\image\TCT_Icon-1.ico
+D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

@@ -3,45 +3,28 @@
   "WorkspaceRootPath": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mousekeyboardspirit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mousekeyboardspirit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mousekeyboardspirit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mousekeyboardspirit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowsplashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowsplashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\generalsettings\\generalsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:generalsettings\\generalsize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowsplashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowsplashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowsplashscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowsplashscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A2BC080-F30F-4D5C-BEAA-65BF2FF9ADC3}|..\\My\\ILogger\\ILogger.csproj|d:\\\u8521\u627F\u5EF7\\development\\my\\ilogger\\ap\\loginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A2BC080-F30F-4D5C-BEAA-65BF2FF9ADC3}|..\\My\\ILogger\\ILogger.csproj|d:\\\u8521\u627F\u5EF7\\development\\my\\ilogger\\interface\\iloginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51EA68CA-A280-448C-8E40-257B45634C8D}|..\\My\\OLogger\\OLogger.csproj|d:\\\u8521\u627F\u5EF7\\development\\my\\ologger\\ap\\ologinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mousekeyboardspirit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mousekeyboardspirit.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,95 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MouseKeyboardSpirit",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MouseKeyboardSpirit.csproj",
-              "RelativeDocumentMoniker": "MouseKeyboardSpirit.csproj",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MouseKeyboardSpirit.csproj",
-              "RelativeToolTip": "MouseKeyboardSpirit.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-27T11:40:13.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MouseKeyboardSpirit",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MouseKeyboardSpirit.csproj",
-              "RelativeDocumentMoniker": "MouseKeyboardSpirit.csproj",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MouseKeyboardSpirit.csproj",
-              "RelativeToolTip": "MouseKeyboardSpirit.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-27T11:40:15.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "GeneralSize.cs",
               "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\GeneralSettings\\GeneralSize.cs",
               "RelativeDocumentMoniker": "GeneralSettings\\GeneralSize.cs",
               "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\GeneralSettings\\GeneralSize.cs",
               "RelativeToolTip": "GeneralSettings\\GeneralSize.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:28:59.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ILogInfo.cs",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\My\\ILogger\\Interface\\ILogInfo.cs",
-              "RelativeDocumentMoniker": "..\\My\\ILogger\\Interface\\ILogInfo.cs",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\My\\ILogger\\Interface\\ILogInfo.cs",
-              "RelativeToolTip": "..\\My\\ILogger\\Interface\\ILogInfo.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T10:46:36.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LogInfo.cs",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\My\\ILogger\\AP\\LogInfo.cs",
-              "RelativeDocumentMoniker": "..\\My\\ILogger\\AP\\LogInfo.cs",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\My\\ILogger\\AP\\LogInfo.cs",
-              "RelativeToolTip": "..\\My\\ILogger\\AP\\LogInfo.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAApwEkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T10:46:32.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OLogInfo.cs",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\My\\OLogger\\AP\\OLogInfo.cs",
-              "RelativeDocumentMoniker": "..\\My\\OLogger\\AP\\OLogInfo.cs",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\My\\OLogger\\AP\\OLogInfo.cs",
-              "RelativeToolTip": "..\\My\\OLogger\\AP\\OLogInfo.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAMAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T10:32:45.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-25T04:43:09.231Z",
+              "WhenOpened": "2025-04-29T02:57:58.7Z",
               "EditorCaption": ""
             },
             {
@@ -150,26 +57,36 @@
               "RelativeDocumentMoniker": "WindowView\\WindowSplashScreen.xaml.cs",
               "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowSplashScreen.xaml.cs",
               "RelativeToolTip": "WindowView\\WindowSplashScreen.xaml.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAgwLcAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAAALcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T04:33:25.741Z",
+              "WhenOpened": "2025-04-28T04:55:34.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "WindowSplashScreen.xaml",
               "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowSplashScreen.xaml",
               "RelativeDocumentMoniker": "WindowView\\WindowSplashScreen.xaml",
               "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowSplashScreen.xaml",
               "RelativeToolTip": "WindowView\\WindowSplashScreen.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-25T04:32:11.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T04:00:39.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "MouseKeyboardSpirit",
+              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MouseKeyboardSpirit.csproj",
+              "RelativeDocumentMoniker": "MouseKeyboardSpirit.csproj",
+              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MouseKeyboardSpirit.csproj",
+              "RelativeToolTip": "MouseKeyboardSpirit.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-27T11:40:15.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -181,13 +98,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAgwKoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAAAFIBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T03:53:30.588Z",
               "EditorCaption": ""

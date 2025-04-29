@@ -2,8 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MouseKeyboardSpirit"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
+        xmlns:local="clr-namespace:MouseKeyboardSpirit.ValueConverter"
         mc:Ignorable="d"
         Title="MainWindow"
         WindowStartupLocation="CenterScreen"        
@@ -14,11 +14,97 @@
         MouseLeftButtonDown="Window_MouseLeftButtonDown"
         AllowsTransparency="True"
         Background="#f9e6c8"
-        Loaded="PageOnLoad"
+        Loaded="WindowOnLoad"
         BorderBrush="#FFAA00"
         BorderThickness="1"        
         >
-    <Grid>
 
+    <Window.Resources>
+        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+
+    <Grid VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="{Binding WindowWidth, Mode=TwoWay}">
+            </ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <!--第一個 Control Row，高度 50-->
+            <RowDefinition Height="Auto"/>
+            <!--第二個 Message Row，高度 30-->
+            <RowDefinition Height="Auto" />
+            <!--第三個 TabView Row，高度 270-->
+            <RowDefinition Height="Auto" />
+            <!--第四個 SelfR Row，高度 50-->
+        </Grid.RowDefinitions>
+
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="{Binding WindowControlRowHeight, Mode=TwoWay}" />
+             --><!--第一個 Control Row，高度 50--><!-- 
+            <RowDefinition Height="{Binding WindowMessageRowHeight, Mode=TwoWay}"/>
+             --><!--第二個 Message Row，高度 30--><!--
+            <RowDefinition Height="270" />
+            --><!--<RowDefinition Height="{Binding WindowTabViewRowHeight, Mode=TwoWay}" />-->            
+             <!--第三個 TabView Row，高度 270--><!-- 
+            <RowDefinition Height="{Binding WindowSelfRowHeight, Mode=TwoWay}" />
+             --><!--第四個 SelfR Row，高度 50--><!-- 
+        </Grid.RowDefinitions>-->
+        
+        <!-- 第 0 列 -->
+        <StackPanel x:Name="StackPanel0" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,10,10,0" Height="{Binding WindowControlRowHeight, Mode=TwoWay}" Background="Black">
+            <Button x:Name="Button_PullPush" Width="{Binding ButtonPullPushSize, Mode=OneWay}"
+            Height="{Binding ButtonPullPushSize, Mode=OneWay}" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center" 
+            Background="Yellow"
+            BorderBrush="Transparent" BorderThickness="0"
+            Click="DoExpandedPanel">
+                <Button.Content>
+                    <Image Source="{Binding ButtonPullPushImageSourcePath, Mode=TwoWay}"
+Stretch="Uniform" Margin="0,2,0,2">
+                        <Image.RenderTransform>
+                            <ScaleTransform ScaleX="1" ScaleY="1"/>
+                        </Image.RenderTransform>
+                        <Image.RenderTransformOrigin>
+                            <Point X="0.5" Y="0.5"/>
+                            <!-- 以中心為縮放基準 -->
+                        </Image.RenderTransformOrigin>
+                        <Image.HorizontalAlignment>Center</Image.HorizontalAlignment>
+                        <Image.VerticalAlignment>Center</Image.VerticalAlignment>
+                    </Image>
+                </Button.Content>
+            </Button>
+
+            <TextBlock Text="{Binding WindowControlRowHeight}" Background="LightBlue"/>
+            <TextBlock Text="{Binding WindowHeight}" Background="LightGreen"/>
+        </StackPanel>
+
+        <!-- 第 1 列 -->
+        <StackPanel x:Name="StackPanel1" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,5,10,0" Height="{Binding WindowMessageRowHeight, Mode=TwoWay}" Background="Green">
+            <TextBlock Text="{Binding WindowMessageRowHeight}" Background="LightBlue"/>
+         </StackPanel>
+
+        <!--第 2 列-->
+        <StackPanel x:Name="StackPanel2" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Margin="10,15,10,0" Visibility="{Binding IsPullPushVisible, Converter={StaticResource BoolToVisibilityConverter}}" Height="{Binding WindowTabViewRowHeight, Mode=TwoWay}" Background="Blue">
+            <!--<TextBlock Text="{Binding WindowTabViewRowHeight}" Height="{Binding WindowTabViewRowHeight, Mode=OneWay}" Background="LightBlue"/>
+            --><!--Tab 分頁--><!--
+            <TabControl
+                Margin="7,7,2,0"
+                VerticalAlignment="Stretch"
+                Background="Transparent"
+                BorderBrush="#999999"
+                BorderThickness="1">
+                --><!--General 分頁--><!-- 
+                <TabItem Header="General">
+                </TabItem>
+            </TabControl>-->
+        </StackPanel>
+
+        <!--第 3 列-->
+        <StackPanel x:Name="StackPanel3" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,5,10,15" Visibility="{Binding IsPullPushVisible, Converter={StaticResource BoolToVisibilityConverter}}" Height="{Binding WindowSelfRowHeight, Mode=TwoWay}" Background="White">
+            <TextBlock Text="{Binding WindowSelfRowHeight}" Background="LightBlue"/>
+        </StackPanel>
     </Grid>
 </Window>
