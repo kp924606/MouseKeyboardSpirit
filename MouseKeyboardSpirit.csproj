@@ -78,6 +78,7 @@
     <ProjectReference Include="..\My\ILogger\ILogger.csproj" />
     <ProjectReference Include="..\My\Judgment\Judgment.csproj" />
     <ProjectReference Include="..\My\OLogger\OLogger.csproj" />
+    <ProjectReference Include="..\My\TCTUI\TCTUI\TCTUI.csproj" />
   </ItemGroup>
 
   <ItemGroup>

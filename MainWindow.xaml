@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
         xmlns:local="clr-namespace:MouseKeyboardSpirit.ValueConverter"
         xmlns:ni="http://www.hardcodet.net/taskbar"
+        xmlns:tctbutton="clr-namespace:TCTUI.TCTButton;assembly=TCTUI"
+        xmlns:tctcolor="clr-namespace:TCTUI.TCTColor;assembly=TCTUI"
         mc:Ignorable="d"
         Title="MainWindow"
         WindowStartupLocation="CenterScreen"        
@@ -54,9 +56,12 @@
         </Grid.RowDefinitions>-->
         
         <!-- 第 0 列 -->
-        <StackPanel x:Name="StackPanel0" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,10,10,0" Height="{Binding WindowControlRowHeight, Mode=TwoWay}" Background="Black">
+        <StackPanel x:Name="StackPanel0" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,10,10,0" Height="{Binding WindowControlRowHeight, Mode=TwoWay}">
             <!-- Pull Push 按鈕 -->
-            <Button x:Name="Button_PullPush" Width="{Binding ButtonPullPushSize, Mode=OneWay}"
+            <tctbutton:TCTRectangleButton x:Name="Button_PullPush" Content="" MajorColor="Yellow" MinorColor="Yellow" StyleType="ObviousDefaultEnlarge" Click="DoExpandedPanel" FontSize="12" Width="{Binding ButtonPullPushSize, Mode=OneWay}" Height="{Binding ButtonPullPushSize, Mode=OneWay}" BackgroundImage="{Binding ButtonPullPushImageSourcePath, Mode=TwoWay}"></tctbutton:TCTRectangleButton>
+            <!--<tctbutton:TCTCycleButton x:Name="TCTCycleButtonText10" Content="1" MajorColor="Yellow" MinorColor ="White" StyleType="ObviousDefaultEnlarge" Click="DoExpandedPanel" CircleSize="{Binding ButtonPullPushSize, Mode=OneWay}" FontSize="12" BackgroundImage="{Binding ButtonPullPushImageSourcePath, Mode=TwoWay}"></tctbutton:TCTCycleButton>-->
+            
+            <!--<Button x:Name="Button_PullPush2" Width="{Binding ButtonPullPushSize, Mode=OneWay}"
             Height="{Binding ButtonPullPushSize, Mode=OneWay}" 
             HorizontalAlignment="Center" 
             VerticalAlignment="Center" 
@@ -71,13 +76,13 @@ Stretch="Uniform" Margin="0,2,0,2">
                         </Image.RenderTransform>
                         <Image.RenderTransformOrigin>
                             <Point X="0.5" Y="0.5"/>
-                            <!-- 以中心為縮放基準 -->
+                            --><!-- 以中心為縮放基準 --><!--
                         </Image.RenderTransformOrigin>
                         <Image.HorizontalAlignment>Center</Image.HorizontalAlignment>
                         <Image.VerticalAlignment>Center</Image.VerticalAlignment>
                     </Image>
                 </Button.Content>
-            </Button>
+            </Button>-->
 
             <!-- Start Stop 按鈕 -->
             <Button x:Name="Button_StartStop" Width="{Binding ButtonPullPushSize, Mode=OneWay}"

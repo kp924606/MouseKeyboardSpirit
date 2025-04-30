@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardSpirit", "MouseKeyboardSpirit.csproj", "{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judgment", "..\My\Judgment\Judgment.csproj", "{1BC34223-56BC-47E1-94EB-B96391DFB97D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OLogger", "..\My\OLogger\OLogger.csproj", "{51EA68CA-A280-448C-8E40-257B45634C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCTUI", "..\My\TCTUI\TCTUI\TCTUI.csproj", "{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{51EA68CA-A280-448C-8E40-257B45634C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51EA68CA-A280-448C-8E40-257B45634C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51EA68CA-A280-448C-8E40-257B45634C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

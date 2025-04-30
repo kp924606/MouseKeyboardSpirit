@@ -53,3 +53,5 @@ D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\WindowVi
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\WindowView\WindowMessageBox.g.cs
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\WindowView\WindowGoodbye.baml
 D:\蔡承廷\Development\MouseKeyboardSpirit\obj\Release\net8.0-windows\WindowView\WindowMessageBox.baml
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Release\net8.0-windows\TCTUI.dll
+D:\蔡承廷\Development\MouseKeyboardSpirit\bin\Release\net8.0-windows\TCTUI.pdb

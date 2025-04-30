@@ -79,6 +79,19 @@
         "runtime": {
           "bin/placeholder/OLogger.dll": {}
         }
+      },
+      "TCTUI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TCTUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TCTUI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -147,6 +160,11 @@
       "type": "project",
       "path": "../My/OLogger/OLogger.csproj",
       "msbuildProject": "../My/OLogger/OLogger.csproj"
+    },
+    "TCTUI/1.0.0": {
+      "type": "project",
+      "path": "../My/TCTUI/TCTUI/TCTUI.csproj",
+      "msbuildProject": "../My/TCTUI/TCTUI/TCTUI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -154,7 +172,8 @@
       "Hardcodet.NotifyIcon.Wpf >= 2.0.1",
       "ILogger >= 1.0.0",
       "Judgment >= 1.0.0",
-      "OLogger >= 1.0.0"
+      "OLogger >= 1.0.0",
+      "TCTUI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -198,6 +217,9 @@
             },
             "D:\\蔡承廷\\Development\\My\\OLogger\\OLogger.csproj": {
               "projectPath": "D:\\蔡承廷\\Development\\My\\OLogger\\OLogger.csproj"
+            },
+            "D:\\蔡承廷\\Development\\My\\TCTUI\\TCTUI\\TCTUI.csproj": {
+              "projectPath": "D:\\蔡承廷\\Development\\My\\TCTUI\\TCTUI\\TCTUI.csproj"
             }
           }
         }

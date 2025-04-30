@@ -3,36 +3,21 @@
   "WorkspaceRootPath": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowgoodbye.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowgoodbye.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowmessagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowmessagebox.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowgoodbye.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowgoodbye.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}|..\\My\\TCTUI\\TCTUI\\TCTUI.csproj|d:\\\u8521\u627F\u5EF7\\development\\my\\tctui\\tctui\\tctbutton\\tctcyclebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowsplashscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowsplashscreen.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}|..\\My\\TCTUI\\TCTUI\\TCTUI.csproj|d:\\\u8521\u627F\u5EF7\\development\\my\\tctui\\tctui\\tctbutton\\tctrectanglebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowsplashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowsplashscreen.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|d:\\\u8521\u627F\u5EF7\\development\\mousekeyboardspirit\\windowview\\windowmessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1AA70EC0-4BDD-4BC6-A3BE-DAD997EEA3A8}|MouseKeyboardSpirit.csproj|solutionrelative:windowview\\windowmessagebox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C1B52782-6F7E-4D83-94E7-A5ADA8175FFD}|..\\My\\TCTUI\\TCTUI\\TCTUI.csproj|d:\\\u8521\u627F\u5EF7\\development\\my\\tctui\\tctui\\tctmodel\\tctbasebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,86 +27,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WindowGoodbye.xaml.cs",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowGoodbye.xaml.cs",
-              "RelativeDocumentMoniker": "WindowView\\WindowGoodbye.xaml.cs",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowGoodbye.xaml.cs",
-              "RelativeToolTip": "WindowView\\WindowGoodbye.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T05:00:23.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WindowGoodbye.xaml",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowGoodbye.xaml",
-              "RelativeDocumentMoniker": "WindowView\\WindowGoodbye.xaml",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowGoodbye.xaml",
-              "RelativeToolTip": "WindowView\\WindowGoodbye.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T04:54:51.762Z",
+              "Title": "TCTBaseButton.cs",
+              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\My\\TCTUI\\TCTUI\\TCTModel\\TCTBaseButton.cs",
+              "RelativeDocumentMoniker": "..\\My\\TCTUI\\TCTUI\\TCTModel\\TCTBaseButton.cs",
+              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\My\\TCTUI\\TCTUI\\TCTModel\\TCTBaseButton.cs",
+              "RelativeToolTip": "..\\My\\TCTUI\\TCTUI\\TCTModel\\TCTBaseButton.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAFkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T04:37:11.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WindowMessageBox.xaml.cs",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowMessageBox.xaml.cs",
-              "RelativeDocumentMoniker": "WindowView\\WindowMessageBox.xaml.cs",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowMessageBox.xaml.cs",
-              "RelativeToolTip": "WindowView\\WindowMessageBox.xaml.cs",
-              "ViewState": "AgIAAF4BAAAAAAAAAAAgwGkBAAAMAAAAAAAAAA==",
+              "Title": "TCTCycleButton.cs",
+              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\My\\TCTUI\\TCTUI\\TCTButton\\TCTCycleButton.cs",
+              "RelativeDocumentMoniker": "..\\My\\TCTUI\\TCTUI\\TCTButton\\TCTCycleButton.cs",
+              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\My\\TCTUI\\TCTUI\\TCTButton\\TCTCycleButton.cs",
+              "RelativeToolTip": "..\\My\\TCTUI\\TCTUI\\TCTButton\\TCTCycleButton.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAvwMEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T04:49:39.13Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WindowMessageBox.xaml",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowMessageBox.xaml",
-              "RelativeDocumentMoniker": "WindowView\\WindowMessageBox.xaml",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowMessageBox.xaml",
-              "RelativeToolTip": "WindowView\\WindowMessageBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T04:48:47.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WindowSplashScreen.xaml.cs",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowSplashScreen.xaml.cs",
-              "RelativeDocumentMoniker": "WindowView\\WindowSplashScreen.xaml.cs",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowSplashScreen.xaml.cs",
-              "RelativeToolTip": "WindowView\\WindowSplashScreen.xaml.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAAALcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T04:55:34.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WindowSplashScreen.xaml",
-              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowSplashScreen.xaml",
-              "RelativeDocumentMoniker": "WindowView\\WindowSplashScreen.xaml",
-              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\WindowView\\WindowSplashScreen.xaml",
-              "RelativeToolTip": "WindowView\\WindowSplashScreen.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T04:00:39.753Z",
+              "WhenOpened": "2025-04-30T05:14:15.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TCTRectangleButton.cs",
+              "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\My\\TCTUI\\TCTUI\\TCTButton\\TCTRectangleButton.cs",
+              "RelativeDocumentMoniker": "..\\My\\TCTUI\\TCTUI\\TCTButton\\TCTRectangleButton.cs",
+              "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\My\\TCTUI\\TCTUI\\TCTButton\\TCTRectangleButton.cs",
+              "RelativeToolTip": "..\\My\\TCTUI\\TCTUI\\TCTButton\\TCTRectangleButton.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAADwv8IAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T04:30:29.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -133,13 +82,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\\u8521\u627F\u5EF7\\Development\\MouseKeyboardSpirit\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAADMCAAAAAAAAAAAgwD8CAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAH4BAAAAAAAAAAAAAIkBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T03:53:30.588Z",
               "EditorCaption": ""

@@ -11,7 +11,8 @@
           "Hardcodet.NotifyIcon.Wpf": "2.0.1",
           "ILogger": "1.0.0",
           "Judgment": "1.0.0",
-          "OLogger": "1.0.0"
+          "OLogger": "1.0.0",
+          "TCTUI": "1.0.0"
         },
         "runtime": {
           "MouseKeyboardSpirit.dll": {}
@@ -73,6 +74,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "TCTUI/1.0.0": {
+        "runtime": {
+          "TCTUI.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -112,6 +121,11 @@
       "sha512": ""
     },
     "OLogger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TCTUI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
